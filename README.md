@@ -138,20 +138,6 @@ The application includes a security warning to inform users about the potential 
 
 ---
 
-## Known Weaknesses and Flaws
-### Lack of Content Validation
-While the application includes some validation mechanisms (e.g., checking for numeric and alphanumeric characters), it does not perform comprehensive content validation. Users can input any text or binary data to generate a QR code, which could potentially be used to encode malicious content or misinformation. For example, a user could encode a URL that leads to a phishing website or a harmful script.
-
-### Limited Security Features
-The application provides a security warning, but it does not include advanced security features such as content scanning or filtering. This means that users are solely responsible for ensuring the safety and reliability of the content they encode in QR codes. The application could benefit from additional security measures to detect and prevent the encoding of potentially harmful content.
-
-### Temporary File Management
-The application uses a temporary directory to store files during the QR code generation process. While it attempts to clean up these files after processing, there is a risk that temporary files could be left behind if the application crashes or is interrupted unexpectedly.
-
-### Image and Color Customization
-The application allows users to customize the appearance of the QR code by adding background images, logos, and selecting colors. While these features enhance the visual appeal of the QR code, they also introduce additional complexity and potential for errors. For example, users may choose images or colors that make the QR code difficult to scan or interpret correctly.
-
----
 ## Data Modeling, Management and Security
 ### Information Modeling
 
