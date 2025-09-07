@@ -1,4 +1,3 @@
-# Written by Zichen Liao,31808642
 import tkinter as tk
 from main_gui import QRGeneratorGUI
 
