@@ -1,16 +1,3 @@
-"""
-File Name: step_display.py
-Description: A Python application for generating QR codes and display the generation step by step.
-Author: Liu Yuhao 31808610
-Date: May 27, 2025
-
-File Name: step_display.py
-Description: Functions to check if coordinates belong to QR code's finder, alignment or timing patterns.
-Author: Ni Ruiyang 31808600
-Date: May 28, 2025
-"""
-
-
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog, colorchooser, Toplevel
 import os
@@ -504,4 +491,5 @@ class QRStepDisplay:
         Timing patterns are located at specific positions and help determine the module size.
         """
         return (x == 6 and 8 <= y <= self.qr_code._size-8) or (y == 6 and 8 <= x <= self.qr_code._size-8)
+
 
