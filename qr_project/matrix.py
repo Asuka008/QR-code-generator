@@ -1,5 +1,3 @@
-# Code was written by Pang Yuyan(31808748),Ding Sihan(31808904).
-
 from __future__ import annotations
 from collections.abc import Sequence
 from typing import Optional, Union
