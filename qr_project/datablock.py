@@ -1,10 +1,3 @@
-"""
-File Name: datablock.py
-Description: This class handles QR code data blocks, supporting encoding in numeric, alphanumeric, binary, and ECI formats for QR codes.
-Author: Ni Ruiyang 31808600
-Date: May 23, 2025
-"""
-
 from __future__ import annotations
 import re
 from collections.abc import Sequence
