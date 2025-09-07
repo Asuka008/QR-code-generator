@@ -1,4 +1,3 @@
-# Written by Zichen Liao, 31808642
 """
 Main GUI module for the Artistic QR Code Generator application.
 This module provides a graphical user interface for generating customized QR codes
