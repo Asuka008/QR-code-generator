@@ -4,7 +4,7 @@ from collections.abc import Sequence
 from typing import Union, Optional
 
 from bitstream import _BitStream
-
+ 
 
 
 class QRDataBlock:
