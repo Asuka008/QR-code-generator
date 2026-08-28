@@ -8,7 +8,6 @@ from bitstream import _BitStream
 
 
 class QRDataBlock:
-	"""Data segment for QR Code. Supports numeric, alphanumeric, and binary modes."""
 	
 	@staticmethod
 	def make_bytes(data: Union[bytes,Sequence[int]]) -> QRDataBlock:
