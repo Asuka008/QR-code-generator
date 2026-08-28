@@ -50,7 +50,7 @@ class QRGeneratorGUI:
         self.qr_modules = None      # QR code module data
         
         # Set up the GUI components
-        self.setup_styles()
+        self.setup_styles() 
         
         # Create main container frame
         self.main_frame = ttk.Frame(root, padding="20")
